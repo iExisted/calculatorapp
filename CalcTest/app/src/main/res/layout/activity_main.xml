@@ -9,24 +9,38 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/texthistory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="40dp"
         android:text="@string/textbox"
         android:textAlignment="textStart"
-        android:textColor="#FFFFFF"
+        android:textColor="#69FFFFFF"
         android:fontFamily="sans-serif"
-        android:textSize="69sp" />
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/textbox"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="69dp" />
 
     <LinearLayout
         android:id="@+id/rectangle_1"
         android:layout_width="329dp"
         android:layout_height="409dp"
         android:layout_marginLeft="41dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:alpha="1"
         android:background="@drawable/numpad_background"
         android:orientation="vertical">
@@ -37,6 +51,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="0dp"
             android:orientation="horizontal">
 
             <Button
@@ -44,13 +59,21 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/acbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="AC" />
+
+
 
             <Button
                 android:id="@+id/bracket"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="()" />
 
             <Button
@@ -58,6 +81,9 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="+/-" />
 
             <Button
@@ -65,6 +91,8 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
                 android:text="/" />
 
         </LinearLayout>
@@ -82,6 +110,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="7" />
 
             <Button
@@ -89,6 +120,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="8" />
 
             <Button
@@ -96,6 +130,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="9" />
 
             <Button
@@ -103,6 +140,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
                 android:text="*" />
 
 
@@ -121,6 +160,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="4" />
 
             <Button
@@ -128,6 +170,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="5" />
 
             <Button
@@ -135,6 +180,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="6" />
 
             <Button
@@ -142,6 +190,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
                 android:text="-" />
 
 
@@ -160,6 +210,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="1" />
 
             <Button
@@ -167,6 +220,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="2" />
 
             <Button
@@ -174,6 +230,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="3" />
 
             <Button
@@ -181,6 +240,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
                 android:text="+" />
 
         </LinearLayout>
@@ -197,6 +258,9 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/numberbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="0" />
 
             <Button
@@ -204,6 +268,9 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
+                android:layout_marginRight="10dp"
                 android:text="." />
 
             <Button
@@ -211,6 +278,8 @@
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_weight="2"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/functionbutton_background"
                 android:text="=" />
 
         </LinearLayout>
