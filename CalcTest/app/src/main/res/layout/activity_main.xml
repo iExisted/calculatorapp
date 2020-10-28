@@ -27,8 +27,8 @@
         android:layout_height="409dp"
         android:layout_marginLeft="41dp"
         android:layout_marginTop="20dp"
-        android:alpha="0.15"
-        android:background="#FFD1A7"
+        android:alpha="1"
+        android:background="@drawable/numpad_background"
         android:orientation="vertical">
 
         <LinearLayout
