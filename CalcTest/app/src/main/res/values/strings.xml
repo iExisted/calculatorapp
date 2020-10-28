@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CalcTest</string>
+    <string name="textbox">0.00</string>
+</resources>
