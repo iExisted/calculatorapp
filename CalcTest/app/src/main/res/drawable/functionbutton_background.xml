@@ -8,6 +8,6 @@
     <!-- we define border color and thick -->
 
     <!-- we define corner radius, note that radius can be different for each corner -->
-    <corners android:radius="10dp" />
+    <corners android:radius="100dp" />
 
 </shape>
